@@ -1,4 +1,3 @@
-Contact
+Kontaktuppgifter
 ==============================================
-
-Any questions about this site can be emailed to [Mikael Roos](https://mikaelroos.se) on (mos@dbwebb.se).
+Frågor om sidans innehåll kan skickas till [Tobias Englund](mailto:tobias.englund@fro.se) (tobias.englund@fro.se)

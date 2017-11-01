@@ -1,4 +1,4 @@
-About cookies
+Om cookies
 ==============================================
 
-What about cookies?
+[Om kakor](http://www.kakor.nu)
