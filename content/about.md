@@ -6,3 +6,6 @@ Detta är en sida byggd för kurspaketet Webbprogrammering på Blekinge Tekniska
 <img src="img/html5.png"  alt="HTML5 as a subway map">
 <br><br>
 The source for this site is available on GitHub in [TOENITG/BTH-anax-flat](https://github.com/TOENITG/BTH-anax-flat).
+
+The theme for this site is available on GitHub in
+[TOENITG/anax-flat-theme](https://github.com/TOENITG/anax-flat-theme).
