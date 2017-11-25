@@ -33,6 +33,12 @@ return [
                 "title" => t("Markdown.")
             ],
 
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid") . "?vgrid",
+                "title" => t("Grid.")
+            ],
+
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -72,6 +78,12 @@ return [
                 "text"  => t("Markdown"),
                 "url"   => $this->di->get("url")->create("markdown"),
                 "title" => t("Markdown.")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid.")
             ],
 
             "about" => [
