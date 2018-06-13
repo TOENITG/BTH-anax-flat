@@ -15,8 +15,6 @@ if ($app->request->hasGet("hgrid")) {
     $app->theme->appendToVariable("htmlClass", "hgrid");
 }
 
-
-
 // Support theme selector by adding class to html element
 if ($app->session->has("theme")) {
     $theme = $app->session->get("theme");
@@ -41,8 +39,6 @@ if ($app->session->has("theme")) {
     }
 }
 
-
-
 /**
  * Add your own custom route
  */
@@ -50,7 +46,7 @@ $app->router->add("theme-selector", function () use ($app) {
     // Load configuration for theme selector
     $themeConfig = $app->loadFile("theme-selector.php");
     $themes = $themeConfig["themes"];
-    
+
     // Check if form was posted with a valid theme
     $postTheme = $app->request->getPost("theme");
     if ($postTheme) {

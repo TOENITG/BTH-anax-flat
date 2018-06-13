@@ -45,6 +45,24 @@ return [
                 "title" => t("Typography")
             ],
 
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysis")
+            ],
+
+            "theme<" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
+            ],
+
+            "theme-selector<" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Temaväljare")
+            ],
+
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -96,6 +114,18 @@ return [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography")
+            ],
+
+            "theme<" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
+            ],
+
+            "theme-selector<" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Temaväljare")
             ],
 
             "about" => [
